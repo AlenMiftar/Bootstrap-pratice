@@ -31,6 +31,10 @@ body {
       font-style: italic;
     }
 
+    & .btn-agree {
+      background-color: rgb(0, 189, 0);
+    }
+
     & .btn:hover {
       color: aqua;
     }
