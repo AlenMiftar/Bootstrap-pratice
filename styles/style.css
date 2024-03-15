@@ -17,11 +17,10 @@ body {
     background-repeat: no-repeat;
 
     & h2 {
+      color: rgb(0, 255, 17);
       font-family: "Josefin Sans", sans-serif;
       font-size: 30px;
       font-weight: 700;
-      position: relative;
-      left: 100px;
     }
 
     & p {
