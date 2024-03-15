@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  max-width: 1800px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(images/house-pool-bg.png);
+}
+
+.card {
+  margin-top: 20px;
+
+  & .card-body {
+    background-color: bisque;
+    background-image: url(images/woman-view-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & h2 {
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      position: relative;
+      left: 100px;
+    }
+
+    & p {
+      color: #fff;
+      font-family: "Aleo", serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    & .btn:hover {
+      color: aqua;
+    }
+
+    & .btn:focus {
+      background-color: rgb(1, 125, 125);
+    }
+  }
+}
